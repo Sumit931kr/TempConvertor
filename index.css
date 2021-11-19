@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+.container{
+    position: relative;
+} */
+h3{
+    font-size: 1.49rem;
+}
+
+#celcius{
+    width: 19vw;
+    height: 12vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+/* background-color: rgb(243, 159, 32); */
+position: absolute;
+top: 35%;
+left: 25%;
+}
+#cel{
+    border-radius: 5px;
+    border: 1px solid black;
+
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 18%;
+    left: 22%;
+}
+#far{
+    border-radius: 5px; 
+       border: 1px solid black;
+
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 18%;
+    left: 22%;
+}
+
+
+#farenhiet{
+    width: 19vw;
+    height: 12vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+top: 35%;
+right: 25%;
+  overflow: hidden;
+}
+
+#find{
+    width: 9vw;
+    height: 5vw;
+    position: absolute;
+    top: 70%;
+    right: 52%;
+      overflow: hidden ;
+    }
+    
+    #clear{
+    width: 9vw;
+    height: 5vw;
+    position: absolute;
+    top: 70%;
+    right: 42%;
+    overflow: hidden ;
+    
+}
+
+.rect1,.rect2{
+    border: 1px solid black;
+    background-color: rgb(230, 230, 230);
+    width: 7vw;
+    height: 2vh;
+}
+    .rect1{
+    position: absolute;
+    top: 47%;
+    right: 47%;
+}    
+.rect2{
+    position: absolute;
+    top: 42%;
+    right: 47%;
+}
+
